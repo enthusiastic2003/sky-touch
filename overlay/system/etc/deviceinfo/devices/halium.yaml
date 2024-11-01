@@ -1,0 +1,19 @@
+sky:
+  Vendor: Xiaomi
+  PrettyName: Redmi 12 5G
+  DeviceType: phone
+  SupportedOrientations:
+    - Portrait
+    - Landscape
+    - InvertedLandscape
+  MirAndroidPlatformClientEglFlush:
+    - "all"
+  MirAndroidPlatformServerEglSync:
+    - false
+  MirAndroidPlatformServerPartialUpdates:
+    - false
+  XwaylandShm:
+    - true
+  OfonoPlugin: binder
+  OfonoImplementsIms: true
+
